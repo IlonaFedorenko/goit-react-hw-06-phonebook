@@ -30,15 +30,4 @@ export const contactsSlice = createSlice({
   },
 });
 
-// export const filterSlice = createSlice({
-//   name: 'filter',
-//   initialState: '',
-//   reducers: {
-//     setFilter: (state, action) => {
-//       return action.payload;
-//       // return (state = action.payload);
-//     },
-//   },
-// });
-
 export const { addContact, deleteContact } = contactsSlice.actions;
