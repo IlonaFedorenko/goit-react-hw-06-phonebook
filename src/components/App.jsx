@@ -17,7 +17,7 @@ export const App = () => {
         <ContactForm />
       </Section>
       <Section title="Contacts">
-        <Filter name={'filter'} />
+        <Filter />
         {contacts.length > 0 && <ContactList />}
       </Section>
     </>
