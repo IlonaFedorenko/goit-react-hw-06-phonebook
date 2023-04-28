@@ -2,8 +2,8 @@ import { configureStore } from '@reduxjs/toolkit';
 import { combineReducers } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { contactsSlice } from '../redux/slice';
-import { filterSlice } from '../redux/filter';
+import { contactsSlice } from './contsctsSlice';
+import { filterSlice } from './filterSlice';
 
 const persistConfig = {
   key: 'root',
